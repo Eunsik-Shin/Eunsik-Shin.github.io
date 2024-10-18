@@ -46,7 +46,7 @@ youtube_username: @navyeffect
 
 # About Section
 about_title: About
-about_profile_image: images/profile.JPG
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello, my name is Eunsik Shin, currently
 
