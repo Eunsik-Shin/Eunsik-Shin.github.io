@@ -1,0 +1,196 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Eunsik Shin
+title: PhD Student at Music and Audio Research Group, Seoul National University
+email: esshin@snu.ac.kr
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: eunsik_shin
+github_username:  Eunsik-Shin
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: godissik_
+linkedin_username: eunsik-shin
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: @navyeffect
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: google scholar
+  icon: fas fa-globe
+  url: https://scholar.google.com/citations?view_op=list_works&hl=ko&hl=ko&user=UrC_JSsAAAAJ
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hello! My name is Eunsik Shin. I am a Ph.D student at <a href="https://www.notion.so/snu-marg/MARG-091390162ca941f4b88f64d47d2c4e87">Music ant Audio Research Group (MARG)</a> in Seoul National University, which is led by professor <a href="https://scholar.google.com/citations?user=Fk4jQFEAAAAJ&hl=ko&oi=ao">Kyogu Lee</a>. 
+  
+  My research interests are mainly focused on <mark>music information retrieval</mark>. In particular, I am studying and working on <mark>music representation learning</mark>, dealing with data scarcity, and <mark>out-of distribution</mark> problem. 
+
+  Apart from my primary interest, I am very open to other research topics related to sound.
+
+  <a href="assets/_Curriculum_Vitae__Updated_2024_09_22_.pdf">Here</a> you can find my CV. Feel free to contact me if you have any questions or want to collaborate.
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Seoul National University
+        caption: March 2022 - Present
+        sub_title: Ph.D Candidate in School of Intelligence and Information
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          # I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+      - layout: top-middle
+        title: Inha University
+        caption: March 2016 - Febuary 2021
+        sub_title: B.S. in Industrial Engineering / Minor in Statistics
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: "Towards a New Interface for Music Listening: A User Experience Study on YouTube (ISMIR 2023)"
+        link: arxiv.org/abs/2307.14718
+        # link_text: Project Website
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Ahyeon Choi, <strong>Eunsik Shin</strong>, Haesun Joung, and Kyogu Lee
+        description: | # this will include new lines to allow paragraphs
+          This study explores YouTube’s unique appeal as a music platform, identifying key factors through interviews with frequent users, and proposes wireframes to improve the audio-visual music experience on streaming services.
+      - layout: top-middle
+        title: User Defined Walking-In-Place Gestures for Intuitive Locomotion in Virtual Reality (HCII 2021)
+        link: link.springer.com/chapter/10.1007/978-3-030-77599-5_14
+        # link_text: Project Website
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Kim Woojoo, <strong>Eunsik Shin</strong>, and Shuping Xiong
+        description: | # this will include new lines to allow paragraphs
+          This study identifies user-elicited walking-in-place (WIP) gestures for VR, finding these gestures are easier to perform, less fatiguing, and provide a more immersive experience compared to existing gestures, enhancing user experience.
+
+  - title: Research Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Seoul National University
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Intern, Music and Audio Research Group
+        caption: July 2021 - December 2021
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            I studied machine learning skills related to signal processing. Especially, I looked into various topics in music information retrieval including music generation and voice conversion.
+
+      - layout: left
+        title: Korea Advanced Institute of Science and Technology (KAIST)
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Intern, Human Factors and Ergonomic Lab (HFEL)
+        caption: July 2020 - August 2020
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            I studied data analyzing skills related to human factors and ergonomics. Ran experiment and analysis on the research ”User Defined Walking-In-Place Gestures for Intuitve Locomotion in Virtual Reality”.
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: "AI Producer: Development of Customized Music Creation Technology"
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Ministry of Culture, Sports and Tourism, South Korea 
+        description: | # this will include new lines to allow paragraphs
+          Development of AI for extracting musical instrument embeddings for automatic composition programs.
+  
+  - title: TMI About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Apart from my research life, I enjoy music in various ways.
+
+      I love listening to rock, jazz, and classical music.
+      
+      I am a member of the rock band <strong><span style="color: navy;">Navy Effect</span></strong>, where I play the drums. Check out my band's <a href="https://www.youtube.com/channel/@navyeffect">YouTube channel</a>.
+      
+      I also love collecting LPs and enjoy listening to music through my turntable.
+      
+    # My band Navy Effect
+    # ![LPs](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+    # My LP collections
+    # ![LPs](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Copyright Reserved Information
+footer_content: |
+  <small>© 2024 Eunsik Shin. All rights reserved. Hosted by <a href="https://pages.github.com">GitHub Pages</a> and theme by <a href="https://github.com/sproogen">sproagen</a>.</small>
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
