@@ -88,7 +88,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: \"I Just Kept Clicking Until It Hit\": Exploring Virtual Instrument Search behavior and Challenges Across User Groups (ISMIR 2026)
+        title: '"I Just Kept Clicking Until It Hit": Exploring Virtual Instrument Search Behavior and Challenges Across User Groups (ISMIR 2026)'
         link: 
         link_text: to be published soon
         # additional_links:
@@ -101,7 +101,7 @@ content:
         quote: >
           Subeen Kim, <strong>Eunsik Shin</strong>, Woo Jae Cho, Kyogu Lee
         description: | # this will include new lines to allow paragraphs
-          This study investigate how users with different musical expertise and VSTi search experience search for virtual instrument presets, revealing distinct search behaviors and design implications for future adaptive AI-assisted retrieval systems.
+          This study investigates how users with different musical expertise and VSTi search experience search for virtual instrument presets, revealing distinct search behaviors and design implications for future adaptive AI-assisted retrieval systems.
           
       - layout: top-middle
         title: Song Form-aware Full-Song Text-to-Lyrics Generation with Multi-Level Granularity Syllable Count Control (Interspeech 2025)
