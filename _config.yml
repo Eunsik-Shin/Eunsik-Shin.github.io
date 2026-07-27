@@ -50,9 +50,11 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello! My name is Eunsik Shin. I am a Ph.D student at <a href="https://www.notion.so/snu-marg/MARG-091390162ca941f4b88f64d47d2c4e87">Music ant Audio Research Group (MARG)</a> in Seoul National University, which is led by professor <a href="https://scholar.google.com/citations?user=Fk4jQFEAAAAJ&hl=ko&oi=ao">Kyogu Lee</a>. 
   
-  My research interests are mainly focused on <mark>music information retrieval</mark>. In particular, I am studying and working on <mark>music representation learning</mark>, dealing with data scarcity, and <mark>out-of-distribution</mark> problem. 
+  My research interests are mainly focused on <mark>music information retrieval</mark>. In particular, I am studying and working on <mark>text-to-music tasks</mark>, <mark>music representation learning</mark>, especially dealing with related topics like explanability, granularity and reasoning. 
 
-  Apart from my primary interest, I am very open to other research topics related to sound.
+  I also have huge interest in Human-Computer-Interaction topics that involves music in any way.
+  
+  Apart from these, I am very open to other research topics related to audio.
 
   <a href="{{ site.baseurl }}/assets/CV_Updated_2024_09_22.pdf">Here</a> you can find my CV. Feel free to contact me if you have any questions or want to collaborate.
 
@@ -86,9 +88,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: "Towards a New Interface for Music Listening: A User Experience Study on YouTube (ISMIR 2023)"
-        link: arxiv.org/abs/2307.14718
-        link_text: paper
+        title: \"I Just Kept Clicking Until It Hit\": Exploring Virtual Instrument Search behavior and Challenges Across User Groups (ISMIR 2026)
+        link: 
+        link_text: to be published soon
         # additional_links:
           # - title:  sproogen/modern-resume-theme
             # icon: fab fa-github
@@ -97,13 +99,62 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Ahyeon Choi, <strong>Eunsik Shin</strong>, Haesun Joung, and Kyogu Lee
+          Subeen Kim, <strong>Eunsik Shin</strong>, Woo Jae Cho, Kyogu Lee
+        description: | # this will include new lines to allow paragraphs
+          This study investigate how users with different musical expertise and VSTi search experience search for virtual instrument presets, revealing distinct search behaviors and design implications for future adaptive AI-assisted retrieval systems.
+          
+      - layout: top-middle
+        title: Song Form-aware Full-Song Text-to-Lyrics Generation with Multi-Level Granularity Syllable Count Control (Interspeech 2025)
+        link: https://arxiv.org/abs/2411.13100
+        link_text: paper link
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Yunkee Chae, <strong>Eunsik Shin</strong>, Suntae Hwang, Seungryeol Paik, Kyogu Lee
+        description: | # this will include new lines to allow paragraphs
+          This study proposes method for more granular syllable control in lyrics generation, aligning lyrics with song form and enabling control across paragraphs, lines, phrases, and words. It also includes a infilling model to ensure adherence to syllable constraints.
+          
+      - layout: top-middle
+        title: Synthetic Dataset Generation for String Ensemble Separation (ICASSP 2025)
+        link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10887603
+        link_text: paper link
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Minju Kim, Joonhyeon Bae, <strong>Eunsik Shin</strong>, Kyogu Lee
+        description: | # this will include new lines to allow paragraphs
+          This study tries to address the challenges of chamber ensemble source separation in string quartets, by proposing a new dataset generation approach using neural synthesis models and MusicXML files.
+          
+      - layout: top-middle
+        title: Towards a New Interface for Music Listening: A User Experience Study on YouTube (ISMIR 2023)
+        link: arxiv.org/abs/2307.14718
+        link_text: paper link
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Ahyeon Choi, <strong>Eunsik Shin</strong>, Haesun Joung, Kyogu Lee
         description: | # this will include new lines to allow paragraphs
           This study explores YouTube’s unique appeal as a music platform, identifying key factors through interviews with frequent users, and proposes wireframes to improve the audio-visual music experience on streaming services.
+          
       - layout: top-middle
         title: User Defined Walking-In-Place Gestures for Intuitive Locomotion in Virtual Reality (HCII 2021)
         link: link.springer.com/chapter/10.1007/978-3-030-77599-5_14
-        link_text: paper
+        link_text: paper link
         # additional_links:
           # - title:  sproogen/modern-resume-theme
             # icon: fab fa-github
@@ -112,19 +163,31 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Kim Woojoo, <strong>Eunsik Shin</strong>, and Shuping Xiong
+          Woojoo Kim, <strong>Eunsik Shin</strong>, Shuping Xiong
         description: | # this will include new lines to allow paragraphs
           This study identifies user-elicited walking-in-place (WIP) gestures for VR, finding these gestures are easier to perform, less fatiguing, and provide a more immersive experience compared to existing gestures, enhancing user experience.
 
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+    
+      - layout: left
+        title: Melodizr
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: AI Software Developer
+        caption: Oct 2025 - Jan 2026
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Developing end-to-end AI software model.
+
       - layout: left
         title: Seoul National University
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Research Intern, Music and Audio Research Group
-        caption: July 2021 - December 2021
+        caption: Jul 2021 - Dec 2021
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -135,7 +198,7 @@ content:
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Research Intern, Human Factors and Ergonomic Lab
-        caption: July 2020 - August 2020
+        caption: Jul 2020 - Aug 2020
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -144,6 +207,22 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: "Artificial intelligence research about cross-modal dialogue modeling for one-on-one multi-modal interactions"
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Ministry of Science and ICT, South Korea
+        description: | # this will include new lines to allow paragraphs
+          Developing AI-based 1:1 dialogue systems using situation awareness and user understanding to enable personalized and context-aware interactions.
+  
       - layout: top-middle
         title: "AI Producer: Development of Customized Music Creation Technology"
         # link: github.com/sproogen
@@ -179,7 +258,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: <small>© 2024 Eunsik Shin. All rights reserved. Hosted by <a href="https://pages.github.com">GitHub Pages</a> and theme by <a href="https://github.com/sproogen">sproogen</a>.</small>
+references_title: <small>© 2026 Eunsik Shin. All rights reserved. Hosted by <a href="https://pages.github.com">GitHub Pages</a> and theme by <a href="https://github.com/sproogen">sproogen</a>.</small>
 
 # Copyright Reserved Information
 # footer_content: |
