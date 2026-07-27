@@ -3,3 +3,27 @@
 ---
 
 @import 'modern-resume-theme';
+
+
+/* Education, Publications 등의 대분류 */
+.container h3 {
+  font-weight: 900 !important;
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+
+/* 논문명, 학교명, 프로젝트명 등의 항목 제목 */
+.layout h4,
+.layout h4 a {
+  font-weight: 900 !important;
+}
+
+/* 각 항목 사이 간격 */
+.layout {
+  margin-bottom: 35px;
+}
+
+/* 큰 카테고리 블록 사이 간격 */
+.container > div {
+  margin-bottom: 25px;
+}
