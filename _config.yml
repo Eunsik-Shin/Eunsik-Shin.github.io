@@ -136,8 +136,8 @@ content:
           This study tries to address the challenges of chamber ensemble source separation in string quartets, by proposing a new dataset generation approach using neural synthesis models and MusicXML files.
           
       - layout: top-middle
-        title: Towards a New Interface for Music Listening: A User Experience Study on YouTube (ISMIR 2023)
-        link: arxiv.org/abs/2307.14718
+        title: "Towards a New Interface for Music Listening: A User Experience Study on YouTube (ISMIR 2023)"
+        link: https://arxiv.org/abs/2307.14718
         link_text: paper link
         # additional_links:
           # - title:  sproogen/modern-resume-theme
@@ -153,7 +153,7 @@ content:
           
       - layout: top-middle
         title: User Defined Walking-In-Place Gestures for Intuitive Locomotion in Virtual Reality (HCII 2021)
-        link: link.springer.com/chapter/10.1007/978-3-030-77599-5_14
+        link: https://link.springer.com/chapter/10.1007/978-3-030-77599-5_14
         link_text: paper link
         # additional_links:
           # - title:  sproogen/modern-resume-theme
